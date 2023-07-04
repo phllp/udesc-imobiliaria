@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-md-4 m-0 p-0">
                         <div class="bg-image-3">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -83,21 +83,41 @@
                         <div class="bg-image-4">
                         </div>
                     </div>
-                    <div class="col-md-8 m-0 p-0 bg-info">
+                    <div class="col-md-8 m-0 p-0 bg-secondary">
                         <div class="py-5 px-5 ms-5">
-                            <h2 class="display-3 border-start border-3 ps-3">Faça uma visita</h2>
-                            <p class="muted w-50 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-                                impedit voluptas reprehenderit enim voluptates exercitationem asperiores magnam explicabo
-                                vel ipsam! Sint unde odio tempora, fugiat perferendis at veniam eveniet doloremque! Placeat
-                                facilis sunt pariatur consequatur fuga earum perferendis? Dicta itaque dolore deleniti nemo
-                                sequi voluptatem amet laborum cumque dolorum fugiat.</p>
-
+                            <h2 class="display-3 border-start border-3 ps-3">Não perca nenhuma novidade</h2>
+                            <p class="muted w-50 mt-5">Assinando a nossa newsletter você é informado das novidades da Pink
+                                Azul no momento em que elas acontecem.</p>
+                            <button class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#reg-modal">Assinar
+                                Newsletter</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
 
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal-title">Fique por dentro das novidades da Pink Azul</h5>
+                            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        
+                        <div class="modal-body d-flex flex-column align-items-center">
+                            <img src="../assets/dog.gif" class="w-50 mb-4 shadow-lg">
+                            <p class="text-center lead">Novos imóveis, ofertas e oportunidades, tudo isso e muito mais direto no seu email!</p>
+                            <label for="modal-email" class="form-label muted">Seu endereço de email:</label>
+                            <input type="email" class="form-control" id="modal-email" placeholder="seu.email@mail.com">
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-primary text-light" type="submit">Cadastrar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
 
         </section>
@@ -119,12 +139,14 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .bg-image-3 {
     height: 100%;
     background-image: url('../assets/house-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .bg-image-1 {
     min-height: calc(100vh - 130px);
     background-image: url('../assets/bg-ambiente-01.jpg');
@@ -137,4 +159,5 @@ export default {
     background-image: url('../assets/bg-ambiente-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}</style>
+}
+</style>
