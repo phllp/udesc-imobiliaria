@@ -1,5 +1,7 @@
 <template>
     <main>
+
+        <!-- headline -->
         <section class="bg-image-1">
             <div class="container text-light">
                 <div class="row  justify-content-center text-start align-items-center">
@@ -24,6 +26,7 @@
 
         </section>
 
+        <!-- por que trabalhar conosco -->
         <section class="bg-image-2">
             <div class="container text-light">
                 <div class="py-5">
@@ -51,14 +54,42 @@
                             <p class="display-5 p-4">casas vendidas <br> em 2023</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
 
-        <section>
+        <!-- comentários de clientes -->
+        <section bg-light>
+            <div class="container">
+                <h1 class="display-4 border-start border-3 border-dark ps-5
+                 text-primary my-5">O que nossos clientes <br> dizem sobre nós</h1>
 
+                <div class="row my-5">
+
+                    <div class="col-md-4">
+                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;" class="display-1" />
+                        <p class="muted">A Pink Azul é simplesmente espetacular! Eles me guiaram em cada etapa do processo de compra da casa dos meus sonhos. A equipe foi profissional, amigável e sempre disposta a responder minhas perguntas. Sou grata por todo o suporte!</p>
+                        <p class="lead">Marvina Pompom</p>
+                    </div>
+                    <div class="col-md-4">
+                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;" class="display-1" />
+                        <p class="muted">Depois de uma mudança difícil, a Pink Azul provou ser um refúgio tranquilo em meio a tantos desafios. <br> Seu serviço excepcional e dedicação implacável me proporcionaram um lar à altura de minhas conquistas!</p>
+                        <p class="lead">Walter Pinto</p>
+                    </div>
+                    <div class="col-md-4">
+                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;" class="display-1" />
+                        <p class="muted">Maravilhoso! Simplesmente o melhor apartamento que já tive. Eu e minha tartaruga estamos extremamente satisfeitas com a moradia e o município. Obrigada Pink Azul!</p>
+                        <p class="lead">Clotilde Habsburg</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- entre em contato / newsletter -->
+        <section>
             <div class="container-fluid text-light">
                 <div class="row">
                     <div class="col-md-8 m-0 p-0 bg-primary">
@@ -73,21 +104,20 @@
                         </div>
                     </div>
                     <div class="col-md-4 m-0 p-0">
-                        <div class="bg-image-3">
-
-                        </div>
+                        <div class="bg-image-3"> </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 m-0 p-0">
-                        <div class="bg-image-4">
-                        </div>
+                        <div class="bg-image-4"></div>
                     </div>
                     <div class="col-md-8 m-0 p-0 bg-secondary">
                         <div class="py-5 px-5 ms-5">
-                            <h2 class="display-3 border-start border-3 ps-3">Não perca nenhuma novidade</h2>
-                            <p class="muted w-50 mt-5">Assinando a nossa newsletter você é informado das novidades da Pink
+                            <h2 class="display-3 border-start border-3 ps-3 mb-5">Não perca nenhuma novidade</h2>
+                            <p class="muted w-50 my-5">Assinando a nossa newsletter você é informado das novidades da Pink
                                 Azul no momento em que elas acontecem.</p>
+
+                            <!-- botão da modal -->
                             <button class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#reg-modal">Assinar
                                 Newsletter</button>
                         </div>
@@ -95,6 +125,7 @@
                 </div>
             </div>
 
+            <!-- modal -->
             <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">

@@ -31,7 +31,7 @@
                     <span class="input-group-text">
                         <i class="bi bi-person-fill"></i>
                     </span>
-                    <input id="name" placeholder="e.g. Mario" type="text" class="form-control">
+                    <input id="name" placeholder="ex: João da Silva" type="text" class="form-control">
 
                     <span class="input-group-text">
                         <span class="tt" data-bs-placement="bottom" title="Como devemos nos referir a você">
