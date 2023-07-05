@@ -33,21 +33,21 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md">
                         <div class="d-flex flex-wrap flex-sm-row flex-column align-items-center">
-                            <h1 class="display-1">20</h1>
+                            <h1 class="display-1 text-primary">20</h1>
                             <p class="display-5 p-4">anos de <br> experiência</p>
                         </div>
                         <div class="d-flex flex-wrap flex-sm-row flex-column align-items-center">
-                            <h1 class="display-1">4</h1>
+                            <h1 class="display-1 text-info">4</h1>
                             <p class="display-5 p-4">Corretores <br> dedicados</p>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="d-flex flex-wrap flex-sm-row flex-column align-items-center">
-                            <h1 class="display-1">R$500</h1>
+                            <h1 class="display-2 text-info">R$500</h1>
                             <p class="display-5 p-4">milhões em <br> propriedades <br> vendidas</p>
                         </div>
                         <div class="d-flex flex-wrap flex-sm-row flex-column align-items-center">
-                            <h1 class="display-1">132</h1>
+                            <h1 class="display-1 text-primary">132</h1>
                             <p class="display-5 p-4">casas vendidas <br> em 2023</p>
                         </div>
                     </div>
@@ -103,10 +103,11 @@
                             <h5 class="modal-title" id="modal-title">Fique por dentro das novidades da Pink Azul</h5>
                             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        
+
                         <div class="modal-body d-flex flex-column align-items-center">
                             <img src="../assets/dog.gif" class="w-50 mb-4 shadow-lg">
-                            <p class="text-center lead">Novos imóveis, ofertas e oportunidades, tudo isso e muito mais direto no seu email!</p>
+                            <p class="text-center lead">Novos imóveis, ofertas e oportunidades, tudo isso e muito mais
+                                direto no seu email!</p>
                             <label for="modal-email" class="form-label muted">Seu endereço de email:</label>
                             <input type="email" class="form-control" id="modal-email" placeholder="seu.email@mail.com">
                         </div>
@@ -125,6 +126,7 @@
 </template>
 
 <script>
+
 
 export default {
     name: 'HomePage'
