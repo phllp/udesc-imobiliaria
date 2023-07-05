@@ -105,7 +105,7 @@
                         </div>
 
                         <div class="modal-body d-flex flex-column align-items-center">
-                            <img src="../assets/dog.gif" class="w-50 mb-4 shadow-lg">
+                            <img src="../assets/home/dog.gif" class="w-50 mb-4 shadow-lg">
                             <p class="text-center lead">Novos imóveis, ofertas e oportunidades, tudo isso e muito mais
                                 direto no seu email!</p>
                             <label for="modal-email" class="form-label muted">Seu endereço de email:</label>
@@ -137,28 +137,28 @@ export default {
 <style scoped>
 .bg-image-4 {
     height: 100%;
-    background-image: url('../assets/house-02.jpg');
+    background-image: url('../assets/home/house-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-image-3 {
     height: 100%;
-    background-image: url('../assets/house-01.jpg');
+    background-image: url('../assets/home/house-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-image-1 {
     min-height: calc(100vh - 130px);
-    background-image: url('../assets/bg-ambiente-01.jpg');
+    background-image: url('../assets/home/bg-ambiente-01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-image-2 {
     min-height: calc(100vh - 130px);
-    background-image: url('../assets/bg-ambiente-02.jpg');
+    background-image: url('../assets/home/bg-ambiente-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }

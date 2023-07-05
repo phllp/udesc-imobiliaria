@@ -9,7 +9,7 @@
             <div class="row align-items-center g-5">
                 <div class="col-md">
                     <div class="card shadow-lg">
-                        <img src="../assets/casa-01.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/catalog/casa-01.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <h5 class="card-title mt-3">SOBRADO</h5>
                             <p class="card-text lead">Bela Vista</p>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-md">
                     <div class="card shadow-lg">
-                        <img src="../assets/casa-02.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/catalog/casa-02.jpg" class="card-img-top img-fluid d-block" alt="...">
                         <div class="card-body">
                             <h5 class="card-title mt-3">CASA PARA FAMÍLIA</h5>
                             <p class="card-text lead">Dalbérgia</p>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-md">
                     <div class="card shadow-lg">
-                        <img src="../assets/casa-04.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/catalog/casa-03.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title mt-3">DUPLEX</h5>
                             <p class="card-text lead">Ponto Chic</p>
