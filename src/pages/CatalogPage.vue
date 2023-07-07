@@ -24,7 +24,7 @@
                                     <font-awesome-icon icon="car-side" size="lg" /> 2 vagas
                                 </a>
                             </div>
-                            <a href="#" class="btn btn-primary text-light">Confira</a>
+                            <a href="/product01" class="btn btn-primary text-light">Confira</a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                                     <font-awesome-icon icon="car-side" size="lg" /> 2 vagas
                                 </a>
                             </div>
-                            <a href="#" class="btn btn-primary text-light">Confira</a>
+                            <a href="/product02" class="btn btn-primary text-light">Confira</a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                                     <font-awesome-icon icon="car-side" size="lg" /> 4 vagas
                                 </a>
                             </div>
-                            <a href="#" class="btn btn-primary text-light">Confira</a>
+                            <a href="/product03" class="btn btn-primary text-light">Confira</a>
                         </div>
                     </div>
                 </div>

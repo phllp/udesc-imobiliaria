@@ -4,6 +4,9 @@ import HomePage from '@/pages/HomePage.vue'
 import CatalogPage from '@/pages/CatalogPage.vue'
 import TeamPage from '@/pages/TeamPage.vue'
 import ContactPage from '@/pages/ContactPage.vue'
+import FirstProduct from '@/pages/products/FirstProduct.vue'
+import SecondProduct from '@/pages/products/SecondProduct.vue'
+import ThirdProduct from '@/pages/products/ThirdProduct.vue'
 
 const routes = [
     {
@@ -21,6 +24,18 @@ const routes = [
     {
         path: '/contact',
         component: ContactPage
+    },
+    {
+        path: '/product01',
+        component: FirstProduct
+    },
+    {
+        path: '/product02',
+        component: SecondProduct
+    },
+    {
+        path: '/product03',
+        component: ThirdProduct
     },
 ]
 

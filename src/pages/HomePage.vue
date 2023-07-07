@@ -67,18 +67,26 @@
                 <div class="row my-5">
 
                     <div class="col-md-4">
-                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;" class="display-1" />
-                        <p class="muted">A Pink Azul é simplesmente espetacular! Eles me guiaram em cada etapa do processo de compra da casa dos meus sonhos. A equipe foi profissional, amigável e sempre disposta a responder minhas perguntas. Sou grata por todo o suporte!</p>
+                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;"
+                            class="display-1" />
+                        <p class="muted">A Pink Azul é simplesmente espetacular! Eles me guiaram em cada etapa do processo
+                            de compra da casa dos meus sonhos. A equipe foi profissional, amigável e sempre disposta a
+                            responder minhas perguntas. Sou grata por todo o suporte!</p>
                         <p class="lead">Marvina Pompom</p>
                     </div>
                     <div class="col-md-4">
-                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;" class="display-1" />
-                        <p class="muted">Depois de uma mudança difícil, a Pink Azul provou ser um refúgio tranquilo em meio a tantos desafios. <br> Seu serviço excepcional e dedicação implacável me proporcionaram um lar à altura de minhas conquistas!</p>
+                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;"
+                            class="display-1" />
+                        <p class="muted">Depois de uma mudança difícil, a Pink Azul provou ser um refúgio tranquilo em meio
+                            a tantos desafios. <br> Seu serviço excepcional e dedicação implacável me proporcionaram um lar
+                            à altura de minhas conquistas!</p>
                         <p class="lead">Walter Pinto</p>
                     </div>
                     <div class="col-md-4">
-                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;" class="display-1" />
-                        <p class="muted">Maravilhoso! Simplesmente o melhor apartamento que já tive. Eu e minha tartaruga estamos extremamente satisfeitas com a moradia e o município. Obrigada Pink Azul!</p>
+                        <font-awesome-icon icon="fa-solid fa-quote-left" rotation=180 style="color: #ff66c4;"
+                            class="display-1" />
+                        <p class="muted">Maravilhoso! Simplesmente o melhor apartamento que já tive. Eu e minha tartaruga
+                            estamos extremamente satisfeitas com a moradia e o município. Obrigada Pink Azul!</p>
                         <p class="lead">Clotilde Habsburg</p>
                     </div>
 
@@ -95,11 +103,11 @@
                     <div class="col-md-8 m-0 p-0 bg-primary">
                         <div class="py-5 px-5 ms-5">
                             <h2 class="display-3 border-start border-3 ps-3">Faça uma visita</h2>
-                            <p class="muted w-50 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-                                impedit voluptas reprehenderit enim voluptates exercitationem asperiores magnam explicabo
-                                vel ipsam! Sint unde odio tempora, fugiat perferendis at veniam eveniet doloremque! Placeat
-                                facilis sunt pariatur consequatur fuga earum perferendis? Dicta itaque dolore deleniti nemo
-                                sequi voluptatem amet laborum cumque dolorum fugiat.</p>
+                            <p class="muted w-50 mt-5">Descubra seu lar perfeito em nossa imobiliária! Com uma equipe
+                                dedicada e um vasto portfólio de imóveis selecionados, estamos prontos para ajudá-lo(a) a
+                                encontrar o que você procura. Atendimento personalizado, transparência e conhecimento do
+                                mercado são nossos pontos fortes. Visite-nos hoje mesmo e deixe-nos guiá-lo(a) rumo à sua
+                                nova casa!</p>
 
                         </div>
                     </div>
@@ -192,5 +200,4 @@ export default {
     background-image: url('../assets/home/bg-ambiente-02.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}
-</style>
+}</style>
