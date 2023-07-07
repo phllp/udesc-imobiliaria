@@ -5,14 +5,14 @@
         <section class="bg-image-1">
             <div class="container text-light">
                 <div class="row  justify-content-center text-start align-items-center">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="my-5 py-5">
                             <p class="secondary display-5">Quer se mudar para Ibirama e não sabe onde morar?</p>
                             <p class="lead">Deixa com a gente</p>
 
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
 
                         <div class="py-5 my-5">
                             <h2 class="secondary display-3">Estamos aqui para ajudar você a encontrar o lar mais próximo da
